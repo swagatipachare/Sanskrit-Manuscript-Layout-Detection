@@ -1,4 +1,4 @@
-Sanskrit Manuscript Layout Dataset
+[Sanskrit Manuscript Layout Dataset
 Contents
 - 80 JPG images: 1 original sample + 79 augmented variants
 - YOLO-format bounding-box labels
@@ -32,3 +32,4 @@ The augmentation operations include:
 Geometric transforms were also applied to the bounding boxes.
 Source
 Original source image: supplied by the user in this conversation.
+](https://chatgpt.com/share/6aef4bd0-1820-83ee-9396-fbb9ef4f0cfe)
