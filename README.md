@@ -5,13 +5,13 @@ Contents
 - data.yaml with five classes
 - Train/validation/test folders
 Classes
-Class ID	Class name
-0	header
-1	footer
-2	main_text
-3	side_text
-4	filler
-
+| Class ID | Class name |
+|---:|---|
+| 0 | header |
+| 1 | footer |
+| 2 | main_text |
+| 3 | side_text |
+| 4 | filler |
 
 Important provenance and limitations
 All images in this package are derived from one user-provided Google Images sample. They are not 80 independent historical manuscript pages and must not be represented as an independently collected 80-page historical dataset.
