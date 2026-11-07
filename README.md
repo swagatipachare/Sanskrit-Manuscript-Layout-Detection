@@ -81,10 +81,6 @@ Geometric transformations were also applied to the corresponding bounding boxes 
 
 **Important:** All 80 images in this dataset are derived from ONE user-provided Google Images sample.
 
-The dataset consists of:
-- 1 original manuscript image.
-- 79 augmented versions of that original image.
-
 These 80 images must not be represented as 80 independently collected historical manuscript pages.
 
 The train, validation, and test folders are provided for YOLO pipeline compatibility. However, because all images originate from the same source page, the split has source leakage.
