@@ -1,4 +1,4 @@
-Sanskrit Manuscript Layout Dataset (Augmented Sample)
+Sanskrit Manuscript Layout Dataset
 Contents
 - 80 JPG images: 1 original sample + 79 augmented variants
 - YOLO-format bounding-box labels
