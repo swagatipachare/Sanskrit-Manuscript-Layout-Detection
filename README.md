@@ -101,11 +101,6 @@ For more reliable object-detection results:
 6. Keep all augmented versions of a source page within the same split.
 7. Evaluate the trained model using independent, previously unseen manuscript pages.
 
-## 9. Source
-
-**Original source image:** One Sanskrit manuscript image supplied by the user in this conversation.
-
-**Dataset preparation:** Image augmentation and approximate YOLO-format region annotations.
 
 ## 10. Conclusion
 
