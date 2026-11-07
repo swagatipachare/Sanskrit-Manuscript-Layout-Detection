@@ -1,0 +1,107 @@
+{
+    "image_name": "test_image.jpg",
+    "image_width": 1231,
+    "image_height": 535,
+    "total_detections": 9,
+    "detections": [
+        {
+            "class_id": 2,
+            "class_name": "main_text",
+            "confidence": 0.975,
+            "bounding_box": [
+                102.38,
+                101.01,
+                1092.47,
+                443.63
+            ]
+        },
+        {
+            "class_id": 0,
+            "class_name": "header",
+            "confidence": 0.9265,
+            "bounding_box": [
+                100.79,
+                8.29,
+                1095.29,
+                120.76
+            ]
+        },
+        {
+            "class_id": 3,
+            "class_name": "side_text",
+            "confidence": 0.7543,
+            "bounding_box": [
+                20.11,
+                184.36,
+                121.92,
+                483.7
+            ]
+        },
+        {
+            "class_id": 3,
+            "class_name": "side_text",
+            "confidence": 0.7184,
+            "bounding_box": [
+                1087.4,
+                171.78,
+                1204.24,
+                511.32
+            ]
+        },
+        {
+            "class_id": 4,
+            "class_name": "filler",
+            "confidence": 0.7007,
+            "bounding_box": [
+                1059.52,
+                37.59,
+                1109.48,
+                498.71
+            ]
+        },
+        {
+            "class_id": 3,
+            "class_name": "side_text",
+            "confidence": 0.6649,
+            "bounding_box": [
+                1078.07,
+                39.68,
+                1193.34,
+                366.99
+            ]
+        },
+        {
+            "class_id": 3,
+            "class_name": "side_text",
+            "confidence": 0.6099,
+            "bounding_box": [
+                1085.27,
+                51.41,
+                1207.74,
+                505.66
+            ]
+        },
+        {
+            "class_id": 4,
+            "class_name": "filler",
+            "confidence": 0.5698,
+            "bounding_box": [
+                1155.07,
+                36.91,
+                1219.21,
+                502.64
+            ]
+        },
+        {
+            "class_id": 3,
+            "class_name": "side_text",
+            "confidence": 0.3003,
+            "bounding_box": [
+                15.46,
+                100.21,
+                123.95,
+                467.68
+            ]
+        }
+    ]
+}

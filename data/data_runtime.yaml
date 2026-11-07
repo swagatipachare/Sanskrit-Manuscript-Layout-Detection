@@ -1,0 +1,11 @@
+path: C:\Users\HP\Downloads\sanskrit_manuscript_augmented_dataset\data
+train: images/train
+val: images/val
+test: images/test
+nc: 5
+names:
+  0: header
+  1: footer
+  2: main_text
+  3: side_text
+  4: filler

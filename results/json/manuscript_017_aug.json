@@ -1,0 +1,151 @@
+{
+    "image_name": "manuscript_017_aug.jpg",
+    "image_width": 1632,
+    "image_height": 623,
+    "total_detections": 13,
+    "detections": [
+        {
+            "class_id": 4,
+            "class_name": "filler",
+            "confidence": 0.9919,
+            "bounding_box": [
+                313.06,
+                111.93,
+                375.26,
+                175.01
+            ]
+        },
+        {
+            "class_id": 3,
+            "class_name": "side_text",
+            "confidence": 0.989,
+            "bounding_box": [
+                0.61,
+                97.16,
+                186.19,
+                448.06
+            ]
+        },
+        {
+            "class_id": 3,
+            "class_name": "side_text",
+            "confidence": 0.9836,
+            "bounding_box": [
+                1426.61,
+                144.88,
+                1629.0,
+                562.45
+            ]
+        },
+        {
+            "class_id": 4,
+            "class_name": "filler",
+            "confidence": 0.9835,
+            "bounding_box": [
+                1037.12,
+                146.36,
+                1090.54,
+                210.09
+            ]
+        },
+        {
+            "class_id": 4,
+            "class_name": "filler",
+            "confidence": 0.9797,
+            "bounding_box": [
+                614.57,
+                176.61,
+                670.82,
+                233.52
+            ]
+        },
+        {
+            "class_id": 2,
+            "class_name": "main_text",
+            "confidence": 0.9794,
+            "bounding_box": [
+                173.63,
+                112.24,
+                1446.44,
+                491.77
+            ]
+        },
+        {
+            "class_id": 1,
+            "class_name": "footer",
+            "confidence": 0.9764,
+            "bounding_box": [
+                735.1,
+                466.06,
+                1110.66,
+                581.02
+            ]
+        },
+        {
+            "class_id": 4,
+            "class_name": "filler",
+            "confidence": 0.97,
+            "bounding_box": [
+                216.79,
+                370.66,
+                269.06,
+                431.58
+            ]
+        },
+        {
+            "class_id": 4,
+            "class_name": "filler",
+            "confidence": 0.9471,
+            "bounding_box": [
+                1344.61,
+                297.63,
+                1413.08,
+                359.98
+            ]
+        },
+        {
+            "class_id": 4,
+            "class_name": "filler",
+            "confidence": 0.9437,
+            "bounding_box": [
+                1073.58,
+                240.54,
+                1132.93,
+                308.97
+            ]
+        },
+        {
+            "class_id": 0,
+            "class_name": "header",
+            "confidence": 0.8879,
+            "bounding_box": [
+                224.74,
+                0,
+                1460.35,
+                142.79
+            ]
+        },
+        {
+            "class_id": 4,
+            "class_name": "filler",
+            "confidence": 0.8646,
+            "bounding_box": [
+                1408.47,
+                25.75,
+                1470.65,
+                617.53
+            ]
+        },
+        {
+            "class_id": 4,
+            "class_name": "filler",
+            "confidence": 0.7936,
+            "bounding_box": [
+                158.8,
+                0,
+                217.67,
+                590.19
+            ]
+        }
+    ]
+}
