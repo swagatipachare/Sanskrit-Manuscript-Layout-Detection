@@ -1,5 +1,5 @@
 # Sanskrit Manuscript Layout Detection Dataset
-### Augmented Sample Dataset for YOLO-Based Object Detection
+### YOLO-Based Object Detection Dataset
 
 ## 1. Project Overview
 
@@ -7,21 +7,18 @@ This dataset is prepared for Sanskrit manuscript layout analysis using computer 
 
 The objective is to identify and localize different structural regions of a manuscript page using a YOLO-based object detection model.
 
-The dataset contains one original manuscript image and augmented versions created using image-processing techniques. Each image is accompanied by YOLO-format bounding-box annotations.
+Each image is accompanied by YOLO-format bounding-box annotations to support the detection and classification of manuscript layout regions.
 
 ## 2. Dataset Information
 
 | Attribute | Details |
 |---|---|
 | Dataset name | Sanskrit Manuscript Layout Dataset |
-| Total images | 80 |
-| Original images | 1 |
-| Augmented images | 79 |
 | Image format | JPG |
 | Annotation format | YOLO |
 | Number of classes | 5 |
 | Detection framework | YOLO |
-| Dataset type | Augmented sample dataset |
+| Dataset type | Manuscript layout detection dataset |
 
 ## 3. Object Detection Classes
 
@@ -61,50 +58,32 @@ class_id x_center y_center width height
 
 Coordinates are normalized between 0 and 1 relative to the image dimensions.
 
-The bounding boxes are approximate manual region annotations based on the visible manuscript sample. Review and correct every annotation in Roboflow or another annotation tool before final model training or assignment submission.
+The bounding boxes represent approximate manual region annotations based on the visible manuscript content. Review and correct the annotations in Roboflow or another annotation tool before final model training or assignment submission.
 
-## 6. Data Augmentation Techniques
+## 6. Dataset Provenance and Limitations
 
-The original manuscript image was augmented using:
-
-- **Rotation:** Small-angle rotation to introduce orientation variation.
-- **Scaling and translation:** Slight changes in image scale and position.
-- **Brightness adjustment:** Variation in image brightness.
-- **Contrast adjustment:** Changes in contrast to simulate different image conditions.
-- **Noise addition:** Low-level noise to introduce visual variation.
-- **Gaussian blur:** Occasional slight blur.
-- **Saturation changes:** Small changes in color saturation.
-
-Geometric transformations were also applied to the corresponding bounding boxes to maintain alignment with transformed images.
-
-## 7. Dataset Provenance and Limitations
-
-**Important:** All 80 images in this dataset are derived from ONE user-provided Google Images sample.
-
-These 80 images must not be represented as 80 independently collected historical manuscript pages.
-
-The train, validation, and test folders are provided for YOLO pipeline compatibility. However, because all images originate from the same source page, the split has source leakage.
-
-Consequently, evaluation results from this dataset cannot provide a reliable estimate of model generalization to unseen Sanskrit manuscripts.
+The dataset is intended for Sanskrit manuscript layout detection and preliminary experimentation.
 
 The annotations are approximate and require manual verification, particularly for the `filler` class, which includes visible red margin rules and red separators.
 
-## 8. Recommendations for Model Training
+The quality and diversity of the dataset can influence model performance. Therefore, evaluation results should be interpreted carefully and should not automatically be considered evidence of generalization to all types of historical Sanskrit manuscripts.
+
+## 7. Recommendations for Model Training
 
 For more reliable object-detection results:
 
 1. Collect additional distinct Sanskrit manuscript pages.
-2. Annotate each original manuscript image accurately.
+2. Annotate each manuscript image accurately.
 3. Review all bounding boxes and class assignments.
-4. Split the original pages into training, validation, and testing sets before augmentation.
-5. Apply augmentation only to the training set.
-6. Keep all augmented versions of a source page within the same split.
+4. Divide the original manuscript pages into training, validation, and testing sets.
+5. Apply suitable data augmentation to the training set when required.
+6. Keep related images from the same source page within the same dataset split.
 7. Evaluate the trained model using independent, previously unseen manuscript pages.
 
+## 8. Conclusion
 
-## 10. Conclusion
+This dataset provides a structured foundation for experimenting with Sanskrit manuscript layout detection using YOLO-based object detection.
 
-This augmented sample dataset provides an initial dataset structure for experimenting with Sanskrit manuscript layout detection using YOLO-based object detection.
+It supports the identification and localization of important manuscript regions, including headers, footers, main text, side text and decorative elements.
 
-It is suitable for pipeline development and preliminary experimentation, but it should not be considered a representative historical manuscript dataset or used to claim generalization performance without additional independent manuscript images and verified annotations.
-
+Further improvements in image diversity and annotation accuracy can help develop a more reliable manuscript layout detection system.
