@@ -60,27 +60,9 @@ Coordinates are normalized between 0 and 1 relative to the image dimensions.
 
 The bounding boxes represent approximate manual region annotations based on the visible manuscript content. Review and correct the annotations in Roboflow or another annotation tool before final model training or assignment submission.
 
-## 6. Dataset Provenance and Limitations
 
-The dataset is intended for Sanskrit manuscript layout detection and preliminary experimentation.
 
-The annotations are approximate and require manual verification, particularly for the `filler` class, which includes visible red margin rules and red separators.
-
-The quality and diversity of the dataset can influence model performance. Therefore, evaluation results should be interpreted carefully and should not automatically be considered evidence of generalization to all types of historical Sanskrit manuscripts.
-
-## 7. Recommendations for Model Training
-
-For more reliable object-detection results:
-
-1. Collect additional distinct Sanskrit manuscript pages.
-2. Annotate each manuscript image accurately.
-3. Review all bounding boxes and class assignments.
-4. Divide the original manuscript pages into training, validation, and testing sets.
-5. Apply suitable data augmentation to the training set when required.
-6. Keep related images from the same source page within the same dataset split.
-7. Evaluate the trained model using independent, previously unseen manuscript pages.
-
-## 8. Conclusion
+## 6. Conclusion
 
 This dataset provides a structured foundation for experimenting with Sanskrit manuscript layout detection using YOLO-based object detection.
 
